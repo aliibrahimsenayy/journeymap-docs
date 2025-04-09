@@ -58,10 +58,16 @@ plugins:
   - i18n:
       docs_structure: folder
       languages:
-        - locale: en
-          default: true
-          name: English
+         - locale: en
+           default: true
+           name: English
+           build: true
+
+        - locale: tr
+          default: false
+          name: türkçe
           build: true
+
           nav_translations:
             Home: Home
             About: About
